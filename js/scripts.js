@@ -1,3 +1,10 @@
+$('.preloader img').fadeToggle(1000);
+
+$(window).on('load', function(){
+  $('.preloader').fadeOut(3000);
+
+});
+
 $(document).ready(
 function() {
 
